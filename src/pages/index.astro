@@ -1,4 +1,8 @@
 ---
+import GitHubImg from "../images/github-light.png";
+import LinkedInImg from "../images/linkedin.png";
+import TwitterImg from "../images/twitter-blue.png";
+import UpworkImg from "../images/upwork.png";
 import Base from "../layouts/Base.astro";
 ---
 
@@ -24,18 +28,18 @@ import Base from "../layouts/Base.astro";
       <h3>Let's connect via:</h3>
       <div class="flex justify-center items-center space-x-10 p-3 m-2">
         <a href="https://github.com/Reljod" target="_blank"
-          ><img src="src/images/github-light.png" class="w-10" />
+          ><img src={GitHubImg} class="w-10" />
         </a>
         <a href="https://twitter.com/Dojler" target="_blank"
-          ><img src="src/images/twitter-blue.png" class="w-10" />
+          ><img src={TwitterImg} class="w-10" />
+        </a>
+        <a href="https://www.linkedin.com/in/reljodoreta/" target="_blank"
+          ><img src={LinkedInImg} class="w-10" />
         </a>
         <a
           href="https://www.upwork.com/freelancers/~0129af27eda5b1ccd6"
           target="_blank"
-          ><img src="src/images/upwork.png" class="w-10" />
-        </a>
-        <a href="https://www.linkedin.com/in/reljodoreta/" target="_blank"
-          ><img src="src/images/linkedin.png" class="w-10" />
+          ><img src={UpworkImg} class="w-10" />
         </a>
       </div>
     </div>
