@@ -10,6 +10,16 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^0.2.2",
-    "astro": "^1.0.0-beta.20"
+    "astro": "^1.0.0-beta.20",
+    "autoprefixer": "^10.4.7",
+    "concurrently": "^7.2.2",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.1.1",
+    "prettier-plugin-tailwindcss": "^0.1.11"
+  },
+  "dependencies": {
+    "astro-icon": "^0.7.1",
+    "astro-imagetools": "^0.6.10"
   }
 }
